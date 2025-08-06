@@ -1,0 +1,31 @@
+Random,Depth 50,100,150,200,250,300,GPU Mem Required,Used
+,,,,,,,,
+2+28 Qubits: 12GB,,,,,,,>8GiB,8.3GB
+Ours_blocking (no merge),44,47,69,73,81,79,,
+merge count,4,8,12,15,18,20,,
+qiskit_gpu_blocking,52,74,99,118,130,148,,
+,,,,,,,,
+2+28 Qubits: 16GB,,,,,,,>8GiB,12.3GB
+Ours_blocking (no merge),41,49,,68,,80,,
+merge count,4,8,,15,,20,,
+qiskit_gpu_blocking,45,66,,103,,129,,
+,,,,,,,,
+,,,,,,,,
+3+27 Qubits: 6GB,,,,,,,>4GiB,4.3GB
+Ours_blocking (no merge),,46,,69,,94,,
+merge count,,8,,16,,22,,
+qiskit_gpu_blocking,,76,,123,,153,,
+,,,,,,,,
+3+27 Qubits: 8GB,,,,,,,>4GiB,6.4GB
+Ours_blocking (no merge),,46,,68,,91,,
+merge count,,8,,16,,22,,
+qiskit_gpu_blocking,,79,,129,,161,,
+,,,,,,,,
+3+27 Qubits: 12GB,,,,,,,>4GiB,10.5GB
+Ours_blocking (no merge),,41,,60,,76,,
+merge count,,8,,16,,22,,
+qiskit_gpu_blocking,,68,,107,,137,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,

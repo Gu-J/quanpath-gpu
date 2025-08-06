@@ -1,0 +1,25 @@
+iqp,Computation Time (s),GPU MEM
+,,
+2+28 Qubits:,,
+ours,70,4GB
+qiskit_cpu,106,-
+qiskit_gpu,26,16GB
+qiskit_gpu_block,47,8.5GB
+Ours_blocking (no merge),46,8.5GB
+merge count,3,
+QDAO,135,4GB
+,,
+2+29 Qubits:,,
+ours,137,8GB
+qiskit_cpu,225,-
+qiskit_gpu,54,32GB
+QDAO,234,8GB
+,,
+2+30 Qubits:,,
+ours,,16GB
+qiskit_cpu,,-
+qiskit_gpu,OOM,64GB
+,,
+,,
+,,
+,,

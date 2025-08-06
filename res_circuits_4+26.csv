@@ -1,0 +1,31 @@
+,Computation Time (s),GPU MEM,,,Computation Time (s),GPU MEM
+qft,,,,iqp,,
+4+26 Qubits:,,,,4+26 Qubits:,,
+qiskit_cpu,161,-,,qiskit_cpu,110,-
+qiskit_gpu_block,55,2.3GB,,qiskit_gpu_block,54,2.3GB
+Ours_blocking (no merge) + from zero,23,2.3GB,,Ours_blocking (no merge) + from zero,36,2.3GB
+merge count,8,,,merge count,5,
+QDAO 3+27 26 sub,637,2.3GB,,QDAO 3+27 5 sub,156,2.3GB
+,,,,,,
+qv,,,,Random 100 depth,,
+4+26 Qubits:,,,,4+26 Qubits:,,
+qiskit_cpu,269,-,,qiskit_cpu,151,-
+qiskit_gpu_block,140,2.3GB,,qiskit_gpu_block,88,2.3GB
+Ours_blocking (no merge) + from zero,83,2.3GB,,Ours_blocking (no merge) + from zero,55,2.3GB
+merge count,21,,,merge count,10,
+QDAO 3+27 15 sub,468,2.3GB,,QDAO 3+27 10 sub,788,2.3GB
+,,,,,,
+vqc_aa,,,,,,
+4+26 Qubits:,,,,,,
+qiskit_cpu,529,-,,,,
+qiskit_gpu_block,347,2.3GB,,,,
+Ours_blocking (no merge) + from zero,127,2.3GB,,,,
+merge count,35,,,,,
+QDAO 3+27 41 sub,959,2.3GB,,,,
+,,,,,,
+4+26 Qubits,Ours,Qiskit GPU Blocking,Qiskit CPU,QDAO,,
+qft,33 @ 10 sub,55,161,637 @ 26 sub,,
+qv,110 @ 21 sub,140,296,468 @ 15 sub,,
+vqc_aa,173 @ 36 sub,347,529,959 @ 41 sub,,
+iqp,43 @ 5 sub,54,110,156 @ 5 sub,,
+Random 100 depth,68 @ 10 sub,88,151,788 @ 10 sub,,

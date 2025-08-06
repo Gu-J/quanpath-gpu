@@ -1,0 +1,22 @@
+Random,Depth 10,50,200,GPU MEM
+,,,,
+2+28 Qubits:,,,,
+ours,10,99,424,4GB
+qiskit_cpu,17,76,314,-
+qiskit_gpu,22,24,58,16GB
+QDAO,,,,4GB
+,,,,
+2+29 Qubits:,,,,
+ours,,,,8GB
+qiskit_cpu,,,,-
+qiskit_gpu,,,,32GB
+QDAO,,,,8GB
+,,,,
+2+30 Qubits:,,,,
+ours,,,,16GB
+qiskit_cpu,,,,-
+qiskit_gpu,OOM,,,64GB
+,,,,
+,,,,
+,,,,
+,,,,

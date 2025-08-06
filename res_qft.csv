@@ -1,0 +1,22 @@
+qft,Computation Time (s),GPU MEM
+,,
+2+28 Qubits:,,
+ours,159,4GB
+qiskit_cpu,166,-
+qiskit_gpu,35,16GB
+qiskit_gpu_block,60,8.5GB
+Ours_blocking (no merge),42,8.5GB
+merge count,4,
+QDAO,over 15 min,4GB
+,,
+4+26 Qubits:,,
+qiskit_cpu,166,-
+qiskit_gpu_block,55,2.3GB
+Ours_blocking (no merge) + from zero,23,2.3GB
+merge count,8,
+QDAO 3+27 78sub,1847,2.3GB
+,,
+,,
+,,
+,,
+,,
